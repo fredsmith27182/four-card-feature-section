@@ -1,0 +1,130 @@
+@import url('https://fonts.google.com/specimen/Poppins:200,400,600&display=swap');
+
+
+body{
+  font-family:'Poppins';
+}
+
+html{
+  background-color:white;
+  margin-left:0;
+}
+
+header{
+  text-align:center;
+}
+
+
+#header-tag{
+  font-weight:200;
+  color:hsl(234, 12%, 34%);
+}
+
+p{
+  color:hsl(229, 6%, 66%);
+  font-weight:400;
+}
+
+h1{
+  font-weight:600;
+  color:hsl(234, 12%, 34%);
+}
+
+.container{
+  margin-left:30px;
+  height:800px;
+  display:grid;
+  background-color:grey;
+  grid-template-columns: 400px 400px 400px;
+  grid-columm-gap:1fr;
+  grid-row-gap:1fr;
+  grid-template-rows: 300px 300px;
+  width:1440px;
+  background-color:hsl(0, 0%, 98%);
+  
+}
+
+.box1{
+  background-color:white;
+  margin-top:260px;
+  width:350px;
+  height:200px;
+  border-radius: 5px;
+  margin-left:50px;
+  padding:30px;
+  border-top: 4px solid hsl(180, 62%, 55%);
+  
+}
+
+.box2{
+  background-color:white;
+  height:200px;
+  width:350px;
+  grid-gap:50px;
+  padding:30px;
+  margin-left:100px;
+  border-radius:5px;
+  border-top: 4px solid hsl(0, 78%, 62%);
+  margin-top:100px;
+ 
+  
+}
+
+.box3{
+  background-color:white;
+  height:200px;
+  width:350px;
+  padding:30px;
+  margin-top:250px;
+  margin-left:150px;
+  border-radius:5px;
+  border-top:4px solid hsl(212, 86%, 64%);
+
+}
+
+.box4{
+  background-color:white;
+  height:200px;
+  width:350px;
+  padding:30px;
+  position:relative;
+  margin-left:500px;
+  margin-top:110px;
+  border-radius:5px;
+  border-top: 4px solid hsl(34, 97%, 64%)
+}
+
+#my-image1{
+ margin-top:10px;
+ margin-left:280px; 
+}
+#my-image2{
+  margin-top:10px;
+  margin-left:280px;
+}
+
+#my-image3{
+  margin-top:10px;
+  margin-left:280px;
+  
+}
+
+#my-image4{
+  margin-top:10px;
+  margin-left:280px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  body{
+      display:grid;
+      grid-template-columns:600px 600px;
+      grid-template-rows:600x 600px;
+      grid-gap:4rem;
+      max-width:900px;
+      margin:0 auto;
+      margin-bottom:4rem;
+      width:100%;
+      background-color:lightblue;
+  }
+}
